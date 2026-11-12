@@ -1,0 +1,66 @@
+{
+  "type": { "label": "English", "flag": "🇬🇧" },
+  "commands": {
+    "configuration": {
+      "data": {
+        "name": "configuration",
+        "description": "Configure your server data"
+      },
+      "title": "Configuration",
+      "language": { "text": "Language", "select": "Choose your language" }
+    }
+  },
+  "container": {
+    "error": {
+      "title": "Error",
+      "description": "An error occurred while executing this interaction. If the problem persists, it is important to report it on the support server.",
+      "support_server": "Support Server"
+    },
+    "forbidden": {
+      "title": "Forbidden Interaction",
+      "description": "You do not have permission to interact with this message because you are not the author of the order."
+    },
+    "disable": {
+      "title": "Command Disabled",
+      "description": "This command is disabled and therefore inaccessible."
+    },
+    "cooldown": {
+      "title": "Cooldown",
+      "description": "This command is currently on cooldown; you'll be able to use it again"
+    },
+    "invitation": {
+      "help": {
+        "title": "Getting Started",
+        "description": "Thanks for ➕ **adding** me to your Discord server !\n\nTo get started, use the **`/config`** 🛠️  \n👉 It’s **THE main command** that lets you easily configure the bot\n\n### 📌 Useful commands to get started :\n``/player`` → Displays player information\n\n💡 The easiest way is to just try out the commands yourself !\n\nIf you need help or have ideas to share, join the support server 👇",
+        "support_server": "Support Server"
+      },
+      "join": {
+        "title": "Guild Created",
+        "description1": "was invited by",
+        "description2": "and",
+        "description3": "now has"
+      },
+      "leave": {
+        "title": "Guild Deleted",
+        "description1": "leave a guild and now has"
+      },
+      "guilds": { "singular": "guild", "plural": "guilds" },
+      "name": "Name",
+      "members": { "singular": "Member", "plural": "Members" },
+      "owner": "Owner",
+      "creationDate": "Creation Date"
+    }
+  },
+  "log": {
+    "error": {
+      "title": "Error",
+      "action": "Action Performed",
+      "error": "Error"
+    },
+    "log": {
+      "title": "Log",
+      "user": "User",
+      "value": "Value"
+    }
+  }
+}
